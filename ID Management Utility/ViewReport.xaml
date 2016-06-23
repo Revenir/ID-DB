@@ -1,0 +1,11 @@
+﻿<Window x:Class="ID_Management_Utility.ViewReport"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="View Report" Height="500.086" Width="596.969">
+    <Grid>
+        <DataGrid x:Name="YouthTransactions" HorizontalAlignment="Left" Margin="32,10,0,0" VerticalAlignment="Top" Height="408" Width="532"/>
+        <Label x:Name="userID" Content="" HorizontalAlignment="Left" Margin="10,219,0,0" VerticalAlignment="Top" Visibility="Hidden"/>
+        <Button x:Name="PrintID" Content="Print Report" HorizontalAlignment="Left" Margin="480,432,0,0" VerticalAlignment="Top" Width="84" Click="PrintID_Click"/>
+
+    </Grid>
+</Window>

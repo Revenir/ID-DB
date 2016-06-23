@@ -1,0 +1,28 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="ID_Management_Utility.ModifyUser"
+        Title="Modify User" Height="516.429" Width="714.643">
+    <Grid>
+        <Label Content="Input User ID To Modify:" HorizontalAlignment="Left" Margin="49,82,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="IDToFind" HorizontalAlignment="Left" Height="23" Margin="193,82,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="265"/>
+        <Button x:Name="SearchID" Content="Search" HorizontalAlignment="Left" Margin="463,82,0,0" VerticalAlignment="Top" Width="75" Height="23" Click="SearchID_Click"/>
+        <TextBox x:Name="FirstName" HorizontalAlignment="Left" Height="23" Margin="147,232,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Visibility="Hidden"/>
+        <Label x:Name="LblFirstName" Content="First Name:" HorizontalAlignment="Left" Margin="49,229,0,0" VerticalAlignment="Top" Visibility="Hidden"/>
+        <TextBox x:Name="LastName" HorizontalAlignment="Left" Height="23" Margin="497,229,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Visibility="Hidden"/>
+        <Label x:Name="LblLastName" Content="Last Name:" HorizontalAlignment="Left" Margin="423,229,0,0" VerticalAlignment="Top" Visibility="Hidden"/>
+        <Label x:Name="LblIDNumber" Content="ID #:" HorizontalAlignment="Left" Margin="49,279,0,0" VerticalAlignment="Top" Visibility="Hidden"/>
+        <TextBox x:Name="IDNumber" HorizontalAlignment="Left" Height="23" Margin="147,282,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsEnabled="False" Visibility="Hidden"/>
+        <TextBox x:Name="BeginningBalance" HorizontalAlignment="Left" Height="24" Margin="496,281,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Visibility="Hidden"/>
+        <Label x:Name="LblBeginningBalance" Content="Beginning Balance:" HorizontalAlignment="Left" Margin="381,279,0,0" VerticalAlignment="Top" Visibility="Hidden"/>
+        <TextBox x:Name="PhotoLocation" HorizontalAlignment="Left" Height="23" Margin="147,331,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Visibility="Hidden"/>
+        <Label x:Name="LblPhoto" Content="Photo:" HorizontalAlignment="Left" Margin="49,336,0,0" VerticalAlignment="Top" Visibility="Hidden"/>
+        <Button x:Name="UploadPhoto" Content="Browse" HorizontalAlignment="Left" Margin="272,334,0,0" VerticalAlignment="Top" Width="75" Click="UploadPhoto_Click_1" Visibility="Hidden"/>
+        <Button x:Name="ModifyUser1" Content="Modify User" HorizontalAlignment="Left" Margin="473,389,0,0" VerticalAlignment="Top" Width="144" Height="64" Click="ModifyUser1_Click" Visibility="Hidden"/>
+        <Label x:Name="LblCurrentBalance" Content="Current Balance:" HorizontalAlignment="Left" Margin="381,331,0,0" VerticalAlignment="Top" Visibility="Hidden"/>
+        <TextBox x:Name="CurrentBalance" HorizontalAlignment="Left" Height="24" Margin="496,330,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Visibility="Hidden"/>
+        <Label x:Name="transID" Content="" HorizontalAlignment="Left" Margin="576,70,0,0" VerticalAlignment="Top" Visibility="Hidden"/>
+        <Label x:Name="initialBalance" Content="" HorizontalAlignment="Left" Margin="635,70,0,0" VerticalAlignment="Top" Visibility="Hidden"/>
+
+    </Grid>
+</Window>

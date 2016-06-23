@@ -1,0 +1,13 @@
+﻿<Window x:Class="ID_Management_Utility.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="ID Management Utility" Height="272.334" Width="218.778">
+    <Grid>
+        <Button x:Name="CreateUser" Content="Create User" HorizontalAlignment="Left" Margin="37,10,0,0" VerticalAlignment="Top" Width="126" Height="28" Click="CreateUser_Click"/>
+        <Button x:Name="ModifyUser" Content="Modify User" HorizontalAlignment="Left" Margin="37,86,0,0" VerticalAlignment="Top" Width="126" Height="28" Click="ModifyUser_Click"/>
+        <Button x:Name="DeleteUser" Content="Delete User" HorizontalAlignment="Left" Margin="37,165,0,0" VerticalAlignment="Top" Width="126" Height="26" Click="DeleteUser_Click"/>
+        <Button x:Name="ViewUser" Content="View User" HorizontalAlignment="Left" Margin="37,47,0,0" VerticalAlignment="Top" Width="126" Height="28" Click="ViewUser_Click"/>
+        <Button x:Name="PrintID" Content="Print ID" HorizontalAlignment="Left" Margin="37,126,0,0" VerticalAlignment="Top" Width="126" Height="29" Click="PrintID_Click"/>
+        <Button x:Name="ViewDatabase" Content="View Database" HorizontalAlignment="Left" Margin="37,202,0,0" VerticalAlignment="Top" Width="126" Height="25" Click="ViewDatabase_Click"/>
+    </Grid>
+</Window>
